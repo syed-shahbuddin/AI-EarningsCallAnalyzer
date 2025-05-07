@@ -1,23 +1,34 @@
 # Fintech-Mavericks
 
+<div align="center">
+
 # Nonanswer Detection in Earnings Call Transcripts
 
+**An AI-powered solution for identifying evasive responses in financial communications**
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![GPT-2](https://img.shields.io/badge/Model-GPT--2-green.svg)](https://openai.com/research/gpt-2)
+[![LLaMA 3.1](https://img.shields.io/badge/Model-LLaMA%203.1-orange.svg)](https://ai.meta.com/llama/)
+[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red.svg)](https://streamlit.io/)
+
+*Built for the Gen AI Visionaries 2025 competition by Team Fintech Mavericks*
+
+</div>
+
 ## 🧠 Project Overview
-This project was built for the **Gen AI Visionaries 2025** competition by **Team Fintech Mavericks**.
 
 A multinational financial consulting firm needed an AI solution to detect evasive or vague responses — also known as *nonanswers* — in earnings call transcripts. Traditional NLP systems failed to adapt to varied speaking styles, and manual analysis was slow and costly.
 
 Our solution leverages a **fine-tuned GPT-2 model** for classification, enhanced with **LLaMA 3.1** for reasoning, and is deployed via a lightweight, scalable Streamlit interface.
 
----
-
 ## 👥 Team Members
-- Utsav Soni  
-- Syed Shahbuddin  
-- Siddesh Sharma  
-- Nithin G  
 
----
+| Name | Role | GitHub |
+|------|------|--------|
+| Utsav Soni | Team Lead | [GitHub Profile](https://github.com/username) |
+| Syed Shahbuddin | ML Engineer | [GitHub Profile](https://github.com/username) |
+| Siddesh Sharma | Data Scientist | [GitHub Profile](https://github.com/username) |
+| Nithin G | Frontend Developer | [GitHub Profile](https://github.com/username) |
 
 ## 📊 Dataset
 
@@ -29,9 +40,11 @@ We used a labeled dataset of earnings call Q&A responses. Originally imbalanced,
 
 This ensured robust model performance across both classes.
 
----
-
 ## 🔧 Solution Architecture
+
+<div align="center">
+  <img src="assets/architecture.png" alt="Solution Architecture" width="700">
+</div>
 
 1. **Input Transcript**  
    Raw text from earnings call Q&A sessions.
@@ -48,14 +61,19 @@ This ensured robust model performance across both classes.
 5. **Deployment**  
    Built with **Streamlit**, using **Groq API** for low-latency inference.
 
----
+## 🚀 Installation & Usage
 
-## 🚀 How to Run
+### Prerequisites
+- Python 3.8+
+- Pip package manager
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/nonanswer-detection.git
-cd nonanswer-detection
-pip install -r requirements.txt
-streamlit run app.py
+### Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/syed-shahbuddin/AI-EarningsCallAnalyzer.git
+   cd AI-EarningsCallAnalyzer
+   pip install -r requirements.txt
+   streamlit run app.py
+   ```
 
