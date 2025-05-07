@@ -37,8 +37,8 @@ Our solution combines multiple advanced AI technologies:
 
 ## 👥 Development Team
 
-- Utsav Soni
 - Syed Shahbuddin
+- Utsav Soni
 - Siddesh Sharma
 - Nithin G
 
